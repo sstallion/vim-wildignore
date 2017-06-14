@@ -1,6 +1,7 @@
 # wildignore.vim
 
-wildignore.vim is a Vim plugin that reads wildignore patterns from a file.
+wildignore.vim is a Vim plugin that reads suffixes and wildignore patterns from
+a file.
 
 ## Installation
 
@@ -30,7 +31,7 @@ Add the following to your `.vimrc` and execute the `:PlugInstall` command:
 
 ## Configuration
 
-By default, patterns are read from `~/.vim/wildignore`.
+By default, patterns are read from `~/.vim/wildignore` and `~/.vim/suffixes`.
 
 The syntax for pattern files is straightforward:
 
