@@ -1,7 +1,8 @@
 # wildignore.vim
 
 wildignore.vim is a Vim plugin that reads suffixes and wildignore patterns from
-a file.
+a file. Inspiration for this plugin was taken from [Adam Bellaire][1]'s
+excellent [gitignore][2] plugin.
 
 ## Installation
 
@@ -41,9 +42,18 @@ The syntax for pattern files is straightforward:
     " Empty lines and comments are permitted
     pattern4
 
-## Acknowledgement
+## Contributing
 
-Inspiration for this plugin was taken from
-[Adam Bellaire](http://www.vim.org/account/profile.php?user_id=16577)'s
-excellent [gitignore](http://www.vim.org/scripts/script.php?script_id=2557)
-plugin.
+Pull requests are welcome! If a problem is encountered using this plugin, please
+file an issue on [GitHub][3].
+
+## License
+
+Source code in this repository is licensed under a Simplified BSD License. See
+[LICENSE] for more details.
+
+[1]: https://www.vim.org/account/profile.php?user_id=16577
+[2]: https://www.vim.org/scripts/script.php?script_id=2557
+[3]: https://github.com/sstallion/vim-wildignore/issues
+
+[LICENSE]: LICENSE
